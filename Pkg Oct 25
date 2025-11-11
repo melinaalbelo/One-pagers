@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indices PKG - Octubre 2025</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carga de la fuente Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos base y customizados */
+        body {
+            font-family: 'Inter', 'Proxima Nova', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .proxima-nova-bold {
+            font-weight: 700;
+        }
+        .proxima-nova-regular {
+            font-weight: 400;
+        }
+        .bg-meli-yellow {
+            background-color: #FFE600;
+        }
+        .text-meli-gray {
+            color: #333333;
+        }
+        .border-meli-gray {
+            border-color: #333333;
+        }
+        .pill-shape {
+            border-radius: 9999px; /* Tailwind: rounded-full */
+        }
+    </style>
+</head>
+<body class="text-meli-gray bg-gray-100 flex items-center justify-center min-h-screen p-4 sm:p-6 md:p-8">
+
+    <!-- Contenedor principal -->
+    <div class="w-full max-w-4xl bg-white rounded-lg shadow-lg p-6 sm:p-8 md:p-10">
+
+        <!-- Sección de Encabezado -->
+        <header class="flex justify-center items-center mb-10">
+            <div class="bg-meli-yellow text-meli-gray proxima-nova-bold py-2 px-6 pill-shape text-center">
+                <h1 class="text-xl sm:text-2xl md:text-3xl">📦 Indices PKG</h1>
+                <!-- ACTUALIZADO: Rango de fecha -->
+                <p class="text-sm sm:text-base proxima-nova-regular">Enero - Octubre 2025</p>
+            </div>
+        </header>
+
+        <!-- Contenido Principal -->
+        <main class="space-y-10">
+
+            <!-- Sección de Insights Clave -->
+            <section>
+                <!-- ACTUALIZADO: Título de sección y mes -->
+                <h2 class="text-2xl proxima-nova-bold border-b-2 border-meli-gray pb-2 mb-6">🔍 Insights Clave – Octubre 2025</h2>
+                <div class="space-y-6">
+                    
+                    <!-- Insight: Polietileno (ACTUALIZADO) -->
+                    <div class="flex items-start space-x-4 p-4 bg-white border border-gray-200 rounded-lg">
+                        <div class="flex-shrink-0">
+                            <span class="text-3xl">🛍️</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg proxima-nova-bold">Polietileno – Film y bolsas plásticas</h3>
+                            <p class="proxima-nova-regular text-sm text-gray-600 mt-1"><strong class="text-meli-gray">Tendencia:</strong> Caída acumulada de ~9,7% en el año, con un descenso de ~2% en el último mes.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Causa:</strong> Sobreoferta global y menor demanda de polímeros.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Impacto:</strong> Brinda alivio de costos al packaging flexible (films, bolsas).</p>
+                        </div>
+                    </div>
+
+                    <!-- Insight: Madera (ACTUALIZADO) -->
+                    <div class="flex items-start space-x-4 p-4 bg-white border border-gray-200 rounded-lg">
+                        <div class="flex-shrink-0">
+                           <span class="text-3xl">🪵</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg proxima-nova-bold">Madera – Pallets</h3>
+                            <p class="proxima-nova-regular text-sm text-gray-600 mt-1"><strong class="text-meli-gray">Tendencia:</strong> Suba sostenida, acumulando un ~13,3% en el año.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Causa:</strong> Escasez de madera aserrada y costos logísticos elevados.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Impacto:</strong> Encarece pallets y embalajes secundarios, añadiendo presión a la cadena de suministro.</p>
+                        </div>
+                    </div>
+
+                    <!-- Insight: Pulpa / Cartón (ACTUALIZADO) -->
+                    <div class="flex items-start space-x-4 p-4 bg-white border border-gray-200 rounded-lg">
+                        <div class="flex-shrink-0">
+                            <span class="text-3xl">📦</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg proxima-nova-bold">Pulpa / Cartón – Cajas</h3>
+                            <p class="proxima-nova-regular text-sm text-gray-600 mt-1"><strong class="text-meli-gray">Tendencia:</strong> Recuperación en Q3; índice acumula un alza de ~12,3% en el año.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Causa:</strong> Mayor demanda, menores stocks y anuncios de aumentos de precio por parte de productores.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Impacto:</strong> Presiona costos de cajas de cartón corrugado; se anticipan ajustes al alza.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Tabla de Evolución -->
+            <section>
+                <div class="p-6 bg-white border border-gray-200 rounded-lg">
+                    <h2 class="text-xl proxima-nova-bold mb-6 text-center">📈 Evolución de Insumos</h2>
+                    <!-- Tabla de Evolución (ACTUALIZADA) -->
+                    <table class="w-full text-left proxima-nova-regular">
+                        <thead>
+                            <tr class="border-b border-gray-200">
+                                <th class="pb-2 proxima-nova-bold">Insumo</th>
+                                <th class="pb-2 proxima-nova-bold text-center">Ene '25</th>
+                                <!-- ACTUALIZADO: Mes -->
+                                <th class="pb-2 proxima-nova-bold text-center">Oct '25</th>
+                                <th class="pb-2 proxima-nova-bold text-right">Variación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Fila Polietileno (ACTUALIZADA) -->
+                            <!-- Nota: Se usa ~109 y ~98 para mantener el formato de índice (precio USD/t dividido por 10) -->
+                            <tr class="border-b border-gray-200">
+                                <td class="py-3 proxima-nova-bold">Polietileno</td>
+                                <td class="py-3 text-center">~109</td>
+                                <td class="py-3 text-center">~98</td>
+                                <td class="py-3 text-right proxima-nova-bold">-9,7%</td>
+                            </tr>
+                            <!-- Fila Madera (ACTUALIZADA) -->
+                            <tr class="border-b border-gray-200">
+                                <td class="py-3 proxima-nova-bold">Madera (Pallets)</td>
+                                <td class="py-3 text-center">135</td>
+                                <td class="py-3 text-center">153*</td>
+                                <td class="py-3 text-right proxima-nova-bold">+13,3%*</td>
+                            </tr>
+                            <!-- Fila Pulpa (ACTUALIZADA) -->
+                            <tr>
+                                <td class="py-3 proxima-nova-bold">Pulpa / Cartón</td>
+                                <td class="py-3 text-center">138</td>
+                                <td class="py-3 text-center">155*</td>
+                                <td class="py-3 text-right proxima-nova-bold">+12,3%*</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- Nota al pie de tabla (ACTUALIZADA) -->
+                    <p class="text-xs text-gray-500 mt-6 proxima-nova-regular">📌 Todos los valores son índices con base 100 en 2019. La variación indica el aumento acumulado en el año. *Valores de Oct '25 son estimaciones.</p>
+                </div>
+            </section>
+
+            <!-- Sección de Otros Indicadores -->
+            <section class="pt-6 border-t border-gray-200">
+                 <!-- ACTUALIZADO: Título de sección y mes -->
+                 <h2 class="text-2xl proxima-nova-bold mb-6 text-center">⚡ Otros Indicadores Clave (Octubre 2025) 🧑‍🔧</h2>
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    
+                    <!-- Tabla de Energía (ACTUALIZADA y REORDENADA) -->
+                    <div class="p-6 bg-white border border-gray-200 rounded-lg">
+                        <h3 class="text-xl proxima-nova-bold mb-4 text-center">Energía Eléctrica Industrial</h3>
+                        <table class="w-full text-left proxima-nova-regular text-sm">
+                            <thead>
+                                <tr class="border-b border-gray-200">
+                                    <th class="pb-2 proxima-nova-bold">País</th>
+                                    <th class="pb-2 proxima-nova-bold text-right">USD/kWh</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200"><td class="py-2">Colombia</td><td class="py-2 text-right">≈ 0,21</td></tr>
+                                <tr class="border-b border-gray-200"><td class="py-2">Brasil</td><td class="py-2 text-right">≈ 0,18</td></tr>
+                                <tr class="border-b border-gray-200"><td class="py-2">Chile</td><td class="py-2 text-right">≈ 0,17</td></tr>
+                                <tr class="border-b border-gray-200"><td class="py-2">Uruguay</td><td class="py-2 text-right">≈ 0,12</td></tr>
+                                <tr class="border-b border-gray-200"><td class="py-2">Argentina</td><td class="py-2 text-right">≈ 0,07-0,08</td></tr>
+                                <tr><td class="py-2">México</td><td class="py-2 text-right">≈ 0,06</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- Tabla de Mano de Obra (ACTUALIZADA y REORDENADA) -->
+                    <div class="p-6 bg-white border border-gray-200 rounded-lg">
+                        <h3 class="text-xl proxima-nova-bold mb-4 text-center">Mano de Obra (Salario Industrial Neto)</h3>
+                        <table class="w-full text-left proxima-nova-regular text-sm">
+                            <thead>
+                                <tr class="border-b border-gray-200">
+                                    <th class="pb-2 proxima-nova-bold">País</th>
+                                    <th class="pb-2 proxima-nova-bold text-right">USD Aprox. (Mensual)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200"><td class="py-2">Argentina</td><td class="py-2 text-right">≈ 1.200</td></tr>
+                                <tr class="border-b border-gray-200"><td class="py-2">México</td><td class="py-2 text-right">≈ 1.170</td></tr>
+                                <tr class="border-b border-gray-200"><td class="py-2">Chile</td><td class="py-2 text-right">≈ 1.100</td></tr>
+                                <tr class="border-b border-gray-200"><td class="py-2">Uruguay</td><td class="py-2 text-right">≈ 1.100</td></tr>
+                                <tr class="border-b border-gray-200"><td class="py-2">Colombia</td><td class="py-2 text-right">≈ 950</td></tr>
+                                <tr><td class="py-2">Brasil</td><td class="py-2 text-right">≈ 900</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                 </div>
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
