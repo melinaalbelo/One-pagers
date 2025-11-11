@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indicador Equipamiento Operativo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Proxima Nova', sans-serif;
+            background-color: #f3f4f6;
+        }
+        /* Clases de estilo del one-pager original */
+        .proxima-nova-bold {
+            font-weight: 700;
+        }
+        .proxima-nova-regular {
+            font-weight: 400;
+        }
+        .bg-meli-yellow {
+            background-color: #FFE600;
+        }
+        .text-meli-gray {
+            color: #333333;
+        }
+        .border-meli-gray {
+            border-color: #333333;
+        }
+        .pill-shape {
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="text-meli-gray bg-gray-100 flex items-center justify-center min-h-screen p-4 sm:p-6 md:p-8">
+
+    <!-- Contenedor principal del One-Pager -->
+    <div class="w-full max-w-4xl bg-white rounded-lg shadow-lg p-6 sm:p-8 md:p-10">
+
+        <!-- Header Section -->
+        <header class="flex justify-center items-center mb-10">
+            <div class="bg-meli-yellow text-meli-gray proxima-nova-bold py-2 px-6 pill-shape text-center">
+                <!-- Título y fecha actualizados del reporte de Equipamiento -->
+                <h1 class="text-xl sm:text-2xl md:text-3xl">⚙️ Indicador Equipamiento Operativo</h1>
+                <p class="text-sm sm:text-base proxima-nova-regular">Enero - Octubre 2025</p>
+            </div>
+        </header>
+
+        <!-- Main Content Section -->
+        <main class="space-y-10">
+
+            <!-- Sección de Insights Clave -->
+            <section>
+                <!-- Título de Insights -->
+                <h2 class="text-2xl proxima-nova-bold border-b-2 border-meli-gray pb-2 mb-6">🔍 Insights Clave – Septiembre 2025</h2>
+                <div class="space-y-6">
+                    
+                    <!-- Insight: Acero (Datos del GDoc) -->
+                    <div class="flex items-start space-x-4 p-4 bg-white border border-gray-200 rounded-lg">
+                        <div class="flex-shrink-0">
+                           <span class="text-3xl">🟨</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg proxima-nova-bold">Acero (estructuras)</h3>
+                            <p class="proxima-nova-regular text-sm text-gray-600 mt-1"><strong class="text-meli-gray">Tendencia:</strong> Acumula +17,9% en 2025.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Causa:</strong> Demanda global sostenida y restricciones de oferta.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Impacto:</strong> Incrementa el CAPEX para renovación de equipamiento operativo.</p>
+                        </div>
+                    </div>
+
+                    <!-- Insight: Electrónica / Chips (Datos del GDoc) -->
+                    <div class="flex items-start space-x-4 p-4 bg-white border border-gray-200 rounded-lg">
+                        <div class="flex-shrink-0">
+                           <span class="text-3xl">⚙️</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg proxima-nova-bold">Electrónica / Chips</h3>
+                            <p class="proxima-nova-regular text-sm text-gray-600 mt-1"><strong class="text-meli-gray">Tendencia:</strong> +12,9% acumulado en el año.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Causa:</strong> Tensión continua en semiconductores.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Impacto:</strong> Fuerte impacto en costos de maquinaria industrial.</p>
+                        </div>
+                    </div>
+
+                    <!-- Insight: Aluminio (Datos del GDoc) -->
+                    <div class="flex items-start space-x-4 p-4 bg-white border border-gray-200 rounded-lg">
+                        <div class="flex-shrink-0">
+                            <span class="text-3xl">🔩</span>
+                        </div>
+                        <div>
+                             <h3 class="text-lg proxima-nova-bold">Aluminio (componentes)</h3>
+                            <p class="proxima-nova-regular text-sm text-gray-600 mt-1"><strong class="text-meli-gray">Tendencia:</strong> Suma +10,5% en el año, con cierta moderación.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Causa:</strong> Demanda industrial y costos de insumos.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Impacto:</strong> Aumenta costos en componentes y renovación de equipamiento.</p>
+                        </div>
+                    </div>
+
+                    <!-- Insight: Polietileno (NUEVO DEL GDOC) -->
+                    <div class="flex items-start space-x-4 p-4 bg-white border border-gray-200 rounded-lg">
+                        <div class="flex-shrink-0">
+                            <span class="text-3xl">🧴</span>
+                        </div>
+                        <div>
+                             <h3 class="text-lg proxima-nova-bold">Polietileno</h3>
+                            <p class="proxima-nova-regular text-sm text-gray-600 mt-1"><strong class="text-meli-gray">Tendencia:</strong> Sobreoferta regional limita aumentos.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Acumulado:</strong> Apenas +7,0% en 2025.</p>
+                            <p class="proxima-nova-regular text-sm text-gray-600"><strong class="text-meli-gray">Impacto:</strong> Limita el incremento de costos en equipamiento que usa este insumo.</p>
+                        </div>
+                    </div>
+
+                    <!-- Insight: Impacto LATAM (NUEVO DEL GDOC) -->
+                    <div class="flex items-start space-x-4 p-4 bg-white border border-gray-200 rounded-lg">
+                        <div class="flex-shrink-0">
+                            <span class="text-3xl">🌎</span>
+                        </div>
+                        <div>
+                             <h3 class="text-lg proxima-nova-bold">Impacto LATAM</h3>
+                            <p class="proxima-nova-regular text-sm text-gray-600 mt-1"><strong class="text-meli-gray">Impacto:</strong> Los mayores costos en acero, aluminio, electrónica y polietileno incrementan el CAPEX para renovación de equipamiento operativo en logística e industria.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Tabla de Evolución -->
+            <section>
+                <div class="p-6 bg-white border border-gray-200 rounded-lg">
+                    <!-- Título de Evolución -->
+                    <h2 class="text-xl proxima-nova-bold mb-6 text-center">📈 Evolución de Insumos de Equipamiento</h2>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left proxima-nova-regular">
+                            <thead>
+                                <tr class="border-b border-gray-200">
+                                    <!-- Cabeceras de la tabla actualizadas -->
+                                    <th class="pb-2 proxima-nova-bold">Insumo</th>
+                                    <th class="pb-2 proxima-nova-bold text-center">Ene '25</th>
+                                    <th class="pb-2 proxima-nova-bold text-center">Oct '25</th>
+                                    <th class="pb-2 proxima-nova-bold text-right">Variación Ene-Oct</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Datos de la tabla (del GDoc) actualizados a Octubre -->
+                                <tr class="border-b border-gray-200">
+                                    <td class="py-3 proxima-nova-bold">Acero (estructuras)</td>
+                                    <td class="py-3 text-center">112</td>
+                                    <td class="py-3 text-center">132</td>
+                                    <td class="py-3 text-right proxima-nova-bold">+17,9%</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="py-3 proxima-nova-bold">Aluminio (componentes)</td>
+                                    <td class="py-3 text-center">105</td>
+                                    <td class="py-3 text-center">116</td>
+                                    <td class="py-3 text-right proxima-nova-bold">+10,5%</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="py-3 proxima-nova-bold">Electrónica / Chips</td>
+                                    <td class="py-3 text-center">140</td>
+                                    <td class="py-3 text-center">158</td>
+                                    <td class="py-3 text-right proxima-nova-bold">+12,9%</td>
+                                </tr>
+                                <!-- Fila de Polietileno (NUEVA) -->
+                                <tr>
+                                    <td class="py-3 proxima-nova-bold">Polietileno (nuevo)</td>
+                                    <td class="py-3 text-center">100</td>
+                                    <td class="py-3 text-center">107</td>
+                                    <td class="py-3 text-right proxima-nova-bold">+7,0%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Nota al pie -->
+                    <p class="text-xs text-gray-500 mt-6 proxima-nova-regular">📌 Todos los valores son índices con base 100 en 2019.</p>
+                </div>
+            </section>
+
+            <!-- NUEVA Sección de Inflación (del GDoc) -->
+            <section>
+                <div class="p-6 bg-white border border-gray-200 rounded-lg">
+                    <!-- Título de Inflación -->
+                    <h2 class="text-xl proxima-nova-bold mb-6 text-center">🧮 Inflación Oficial (Septiembre 2025)</h2>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left proxima-nova-regular">
+                            <thead>
+                                <tr class="border-b border-gray-200">
+                                    <th class="pb-2 proxima-nova-bold">País</th>
+                                    <th class="pb-2 proxima-nova-bold text-center">Inflación Mensual</th>
+                                    <th class="pb-2 proxima-nova-bold text-right">Inflación Anual</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Datos ordenados por Inflación Anual (descendente) -->
+                                <tr class="border-b border-gray-200">
+                                    <td class="py-3 proxima-nova-bold">Argentina</td>
+                                    <td class="py-3 text-center">+2,1%</td>
+                                    <td class="py-3 text-right proxima-nova-bold">+31,8%</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="py-3 proxima-nova-bold">Colombia</td>
+                                    <td class="py-3 text-center">+0,54%</td>
+                                    <td class="py-3 text-right proxima-nova-bold">+5,18%</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="py-3 proxima-nova-bold">Brasil</td>
+                                    <td class="py-3 text-center">+0,48%</td>
+                                    <td class="py-3 text-right proxima-nova-bold">+5,17%</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="py-3 proxima-nova-bold">Chile</td>
+                                    <td class="py-3 text-center">+0,4%</td>
+                                    <td class="py-3 text-right proxima-nova-bold">+4,4%</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="py-3 proxima-nova-bold">Uruguay</td>
+                                    <td class="py-3 text-center">+0,42%</td>
+                                    <td class="py-3 text-right proxima-nova-bold">+4,25%</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 proxima-nova-bold">México</td>
+                                    <td class="py-3 text-center">+0,23%</td>
+                                    <td class="py-3 text-right proxima-nova-bold">+3,76%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Nota al pie -->
+                    <p class="text-xs text-gray-500 mt-6 proxima-nova-regular">📌 Datos de inflación mensual e interanual más recientes (sep-25), según institutos oficiales.</p>
+                </div>
+            </section>
+
+            <!-- Sección de Indicadores Adicionales (2 columnas) -->
+            <section class="pt-6 border-t border-gray-200">
+                 <!-- Título de sección -->
+                 <h2 class="text-2xl proxima-nova-bold mb-6 text-center">⚡ Otros Indicadores Clave (Sept/Oct 2025) 🧑‍🔧</h2>
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    
+                    <!-- Tabla de Energía -->
+                    <div class="p-6 bg-white border border-gray-200 rounded-lg">
+                        <!-- Título y datos de Energía (del GDoc) - Título actualizado a Octubre -->
+                        <h3 class="text-xl proxima-nova-bold mb-4 text-center">Energía Eléctrica Industrial (Oct 2025)</h3>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left proxima-nova-regular text-sm">
+                                <thead>
+                                    <tr class="border-b border-gray-200">
+                                        <th class="pb-2 proxima-nova-bold">País</th>
+                                        <th class="pb-2 proxima-nova-bold text-right">USD/kWh</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Datos ordenados de mayor a menor costo -->
+                                    <tr class="border-b border-gray-200"><td class="py-2">Colombia</td><td class="py-2 text-right">≈ 0,22</td></tr>
+                                    <tr class="border-b border-gray-200"><td class="py-2">Brasil</td><td class="py-2 text-right">≈ 0,20</td></tr>
+                                    <tr class="border-b border-gray-200"><td class="py-2">Chile</td><td class="py-2 text-right">≈ 0,18</td></tr>
+                                    <tr class="border-b border-gray-200"><td class="py-2">Uruguay</td><td class="py-2 text-right">≈ 0,12</td></tr>
+                                    <tr class="border-b border-gray-200"><td class="py-2">Argentina</td><td class="py-2 text-right">≈ 0,07–0,08</td></tr>
+                                    <tr><td class="py-2">México</td><td class="py-2 text-right">≈ 0,06</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Tabla de Mano de Obra -->
+                    <div class="p-6 bg-white border border-gray-200 rounded-lg">
+                        <!-- Título y datos de Mano de Obra (del GDoc) -->
+                        <h3 class="text-xl proxima-nova-bold mb-4 text-center">Mano de Obra (Salario Ind. Neto Ago-25)</h3>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left proxima-nova-regular text-sm">
+                                <thead>
+                                    <tr class="border-b border-gray-200">
+                                        <th class="pb-2 proxima-nova-bold">País</th>
+                                        <th class="pb-2 proxima-nova-bold text-right">USD Aprox. (Mensual)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Datos ordenados de mayor a menor salario -->
+                                    <tr class="border-b border-gray-200"><td class="py-2">Argentina</td><td class="py-2 text-right">1.200</td></tr>
+                                    <tr class="border-b border-gray-200"><td class="py-2">México</td><td class="py-2 text-right">1.170</td></tr>
+                                    <tr class="border-b border-gray-200"><td class="py-2">Chile</td><td class="py-2 text-right">1.100</td></tr>
+                                    <tr class="border-b border-gray-200"><td class="py-2">Uruguay</td><td class="py-2 text-right">1.100</td></tr>
+                                    <tr class="border-b border-gray-200"><td class="py-2">Colombia</td><td class="py-2 text-right">950</td></tr>
+                                    <!-- Corrección de 'classall' a 'class' -->
+                                    <tr><td class="py-2">Brasil</td><td class="py-2 text-right">900</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
+
+
+
